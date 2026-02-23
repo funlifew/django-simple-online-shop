@@ -1,0 +1,19 @@
+[project]
+name = "django-simple-online-shop"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Mehdi Radfar",email = "metiii.py@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django (>=6.0.2,<7.0.0)",
+    "django-debug-toolbar (>=6.2.0,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
